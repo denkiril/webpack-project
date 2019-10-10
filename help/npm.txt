@@ -76,3 +76,22 @@ rules:
 .eslintignore (new)
 
 /dist/
+
+-- Git --
+
+git init
+
+.gitignore (new):
+node_modules
+
+git remote add origin https://github.com/denkiril/webpack-project.git
+git push -u origin master
+
+git config --global user.email denkiril@gmail.com
+git config --global user.name "Денис Кирилюк"
+git status
+git log
+git brunch [name]
+git checkout [name]
+git commit (в новую ветку [name])
+git merge [name] - сливает ветку [name] с мастером
